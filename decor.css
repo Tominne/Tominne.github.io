@@ -4,7 +4,43 @@ body {
 
 h1 {
   color: goldenrod;
+  text-align: center;
 }
+
+details {
+  color: rgb(218, 192, 123);
+  text-align: center;
+}
+
+h2 {
+  padding-top: 30px;
+  color: coral;
+  text-align: center;
+}
+
+h3 {
+  color: azure;
+  opacity: 70%;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
 p {
-  color: rgb(88, 47, 0);
+  color: rgb(238, 168, 87);
+  text-align: center;
 }
+
+.heading {
+  margin: auto;
+  border: solid;
+width: 50%;
+  border-style: dashed;
+  border-radius: 100px;
+  color: rgb(49, 34, 6) darkgrey;
+  background-color: cornsilk;
+}
+
+img {margin: auto; border: solid; border-color: darkkhaki; border-width: auto; border-radius: 100px;}
+
+table {margin:auto; text-align: center;}
