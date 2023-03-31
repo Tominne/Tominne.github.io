@@ -52,3 +52,7 @@ ol {text-align: center}
 button {margin:auto; border: solid 2px; border-color: beige; border-radius: 100px; color: rgb(141, 180, 90);}
 
 .date {color: rgb(169, 182, 153); opacity: 90%;}
+
+ol.c {
+  list-style-type: upper-roman; list-style-position: inside;
+}
