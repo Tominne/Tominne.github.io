@@ -56,3 +56,7 @@ button {margin:auto; border: solid 2px; border-color: beige; border-radius: 100p
 ol.c {
   list-style-type: upper-roman; list-style-position: inside;
 }
+
+.sub {opacity: 80%; color: cornsilk;}
+
+.block {width: 40%; padding: 10px; margin: auto; text-align: center; background-color: rgb(39, 39, 33); border-radius: 100px; background-blend-mode: exclusion;}
