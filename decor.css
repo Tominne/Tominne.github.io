@@ -1,9 +1,9 @@
 body {
-  background-color: darkslategrey;
+  background-color: rgb(83, 57, 23);
 }
 
 h1 {
-  color: rgb(168, 180, 114);
+  color: rgb(236, 193, 0);
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ p {
   width: 60%;
   border-style: dashed;
   border-radius: 100px;
-  color: rgb(49, 34, 6) darkgrey;
+  color: rgb(255, 209, 5);
   background-color: cornsilk;
   text-align: center;
   margin: auto;
