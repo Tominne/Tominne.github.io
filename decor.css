@@ -1,5 +1,10 @@
+@media (max-width: 800px) {font-size:10px;}
+
 body {
   background-color: rgb(83, 57, 23);
+  width: 90vmax;
+  height: 90vmax;
+  width: 350vmin;
 }
 
 h1 {
@@ -31,6 +36,8 @@ p {
   text-align: center;
 }
 
+figcaption {color: azure;}
+
 .heading {
   margin-top: 30px;
   border: solid;
@@ -47,6 +54,10 @@ p {
 }
 
 img {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
   margin: auto;
   border: solid;
   border-color: darkkhaki;
