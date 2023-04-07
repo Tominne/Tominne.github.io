@@ -1,11 +1,28 @@
+@media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
 body {
   background-color: darkslategrey;
+  background-image: url="imgs/goldennerd.png";
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vmax;
+  height: 80vmin;
 }
 
 h1 {
-  color: rgb(168, 180, 114);
+  color: rgb(218, 179, 51);
   text-align: center;
+  margin-bottom: 50px;
 }
+
+figcaption { color: rgb(255, 217, 90);
+  text-align: center;
+opacity: 60%;
+margin-bottom: 40px;}
 
 details {
   color: rgb(218, 192, 123);
@@ -14,8 +31,9 @@ details {
 
 h2 {
   padding-top: 30px;
-  color: coral;
+  color: rgb(255, 241, 118);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -24,11 +42,13 @@ h3 {
   text-align: center;
   margin: auto;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 p {
   color: rgb(238, 168, 87);
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .heading {
@@ -44,10 +64,39 @@ p {
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px;;
+  margin-bottom: 50px;
 }
 
-img {
+.heading2 {
+  margin-top: 30px;
+  border: solid;
+  width: 60%;
+  border-color: burlywood;
+  border-radius: 100px;
+  color:rgb(201, 125, 12);
+  background-color: cornsilk;
+  text-align: center;
   margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;;
+  margin-bottom: 50px;}
+
+  .headingsquare {
+    margin-top: 30px;
+    width: 100vmax;
+    color:rgb(255, 208, 0);
+    background-color: rgb(68, 50, 0);
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;;
+    margin-bottom: 50px;
+  opacity: 90%;}
+
+img {
+  margin-top: 70px;
   border: solid;
   border-color: darkkhaki;
   border-width: auto;
@@ -71,9 +120,12 @@ ol {
 button {
   margin: auto;
   border: solid 2px;
-  border-color: beige;
+  border-color: rgb(136, 65, 8);
   border-radius: 100px;
-  color: rgb(141, 180, 90);
+  color: rgb(252, 255, 94);
+  margin-bottom: 10px;
+  text-align: center;
+  background-image: href="imgs/button.png";
 }
 
 .date {
@@ -101,13 +153,23 @@ body {text-align: center;}
 }
 
 .block {
-  width: 40%;
-  padding: 10px;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+  background-color: rgb(43, 29, 5);
+  border-radius: 100px;
+  margin-bottom: 50px;
+}
+
+.blockwide {
+  width: 60vmax;
+  height: fit-content;;
+  padding: 30px;
   margin: auto;
   text-align: center;
   background-color: rgb(43, 29, 5);
   border-radius: 100px;
-  background-blend-mode: exclusion;
+  margin-bottom: 50px;
 }
 
 .block2 {
@@ -125,8 +187,7 @@ body {text-align: center;}
 
 .fancy {font-family: 'Alkatra', cursive;}
 
-button {font-family: 'Alkatra', cursive; background-color: rgb(168, 172, 135); color: rgb(75, 77, 69); text-align: center; margin: auto;}
-
+button {font-family: 'Alkatra', cursive; background-color: rgb(65, 31, 0); color: rgb(255, 237, 78); text-align: center; margin: auto;}
 
 
 
