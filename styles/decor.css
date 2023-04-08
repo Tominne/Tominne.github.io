@@ -6,7 +6,7 @@
 
 body {
   background-color: darkslategrey;
-  background-image: url="imgs/goldennerd.png";
+  background-image: url("imgs/goldennerd.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vmax;
