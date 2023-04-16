@@ -5,12 +5,9 @@
 }
 
 body {
-  background-color: darkslategrey;
-  background-image: url("imgs/goldennerd.png");
+  background-image: url('imgs/js-cafe');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vmax;
-  height: 80vmin;
 }
 
 h1 {
@@ -19,10 +16,12 @@ h1 {
   margin-bottom: 50px;
 }
 
-figcaption { color: rgb(255, 217, 90);
+figcaption {
+  color: rgb(255, 217, 90);
   text-align: center;
-opacity: 60%;
-margin-bottom: 40px;}
+  opacity: 60%;
+  margin-bottom: 40px;
+}
 
 details {
   color: rgb(218, 192, 123);
@@ -63,8 +62,12 @@ p {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 10px;;
+  padding: 10px;
   margin-bottom: 50px;
+}
+
+.prettysection {
+  background-image: url('imgs/js-cafe');
 }
 
 .heading2 {
@@ -73,27 +76,29 @@ p {
   width: 60%;
   border-color: burlywood;
   border-radius: 100px;
-  color:rgb(201, 125, 12);
+  color: rgb(201, 125, 12);
   background-color: cornsilk;
   text-align: center;
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 10px;;
-  margin-bottom: 50px;}
+  padding: 10px;
+  margin-bottom: 50px;
+}
 
-  .headingsquare {
-    margin-top: 30px;
-    width: 100vmax;
-    color:rgb(255, 208, 0);
-    background-color: rgb(68, 50, 0);
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 30px;;
-    margin-bottom: 50px;
-  opacity: 90%;}
+.headingsquare {
+  margin-top: 30px;
+  width: 100vmax;
+  color: rgb(255, 208, 0);
+  background-color: rgb(68, 50, 0);
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  margin-bottom: 50px;
+  opacity: 90%;
+}
 
 img {
   margin-top: 70px;
@@ -103,9 +108,25 @@ img {
   border-radius: 100px;
 }
 
-table {
-  margin: auto;
-  text-align: center;
+.square {
+  margin-top: 70px;
+  border: solid;
+  border-color: rgb(71, 247, 244);
+  border-radius: 0px;
+  margin-right: 210px;
+}
+
+.headerstyle {
+  background-image: url('imgs/js-cafe');
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
 main {
@@ -125,7 +146,7 @@ button {
   color: rgb(252, 255, 94);
   margin-bottom: 10px;
   text-align: center;
-  background-image: href="imgs/button.png";
+  background-image: href= 'imgs/button.png';
 }
 
 .date {
@@ -145,7 +166,9 @@ ul {
   color: azure;
 }
 
-body {text-align: center;}
+body {
+  text-align: center;
+}
 
 .sub {
   opacity: 80%;
@@ -161,9 +184,20 @@ body {text-align: center;}
   margin-bottom: 50px;
 }
 
+.blocksmall {
+  background-color: rgb(143, 209, 212);
+  opacity: 90%;
+  padding: 10px;
+  border-radius: 100px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
 .blockwide {
   width: 60vmax;
-  height: fit-content;;
+  height: fit-content;
   padding: 30px;
   margin: auto;
   text-align: center;
@@ -182,12 +216,25 @@ body {text-align: center;}
   background-blend-mode: exclusion;
 }
 
-.dignity {font-family: 'Alkatra', cursive;
-  font-family: 'Oswald', sans-serif;}
+.dignity {
+  font-family: 'Alkatra', cursive;
+  font-family: 'Oswald', sans-serif;
+}
 
-.fancy {font-family: 'Alkatra', cursive;}
+.fancy {
+  font-family: 'Alkatra', cursive;
+}
 
-button {font-family: 'Alkatra', cursive; background-color: rgb(65, 31, 0); color: rgb(255, 237, 78); text-align: center; margin: auto;}
+button {
+  font-family: 'Alkatra', cursive;
+  background-color: rgb(65, 31, 0);
+  color: rgb(255, 237, 78);
+  text-align: center;
+  margin: auto;
+}
 
-
-
+.background {
+  background-color: rgb(255, 255, 255);
+  width: 200vmax, 100vmin;
+  margin: auto;
+}
