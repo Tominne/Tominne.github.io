@@ -15,6 +15,9 @@ function click(e) {
     return;
   }
   let cell = e.target;
+  if (cell.innerHTML !== "") {
+    return;
+  }
   if (noughtsTurn) {
     cell.innerHTML = `0`;
   } else {
