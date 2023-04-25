@@ -157,13 +157,14 @@ button {
 ol.c {
   list-style-type: upper-roman;
   list-style-position: inside;
+  color: rgb(248, 109, 28);
 }
 
 ul {
   list-style-position: inside;
   text-align: center;
   margin: auto;
-  color: azure;
+  color: rgba(255, 215, 38, 0.644);
 }
 
 body {
