@@ -38,24 +38,18 @@ const bodyElement = document.getElementById("body");
 const shoesElement = document.getElementById("shoes");
 
 function changeHat() {
-  headElement.addEventListener("click", () => {
-    headIndex = (headIndex + 1) % headImages.length;
-    headElement.src = headImages[headIndex];
-  });
+  headIndex = (headIndex + 1) % headImages.length;
+  headElement.src = headImages[headIndex];
 }
 
 function changeClothes() {
-  bodyElement.addEventListener("click", () => {
-    bodyIndex = (bodyIndex + 1) % bodyImages.length;
-    bodyElement.src = bodyImages[bodyIndex];
-  });
+  bodyIndex = (bodyIndex + 1) % bodyImages.length;
+  bodyElement.src = bodyImages[bodyIndex];
 }
 
 function changeShoes() {
-  shoesElement.addEventListener("click", () => {
-    shoesIndex = (shoesIndex + 1) % shoesImages.length;
-    shoesElement.src = shoesImages[shoesIndex];
-  });
+  shoesIndex = (shoesIndex + 1) % shoesImages.length;
+  shoesElement.src = shoesImages[shoesIndex];
 }
 
 let currentElement = "head";
@@ -77,29 +71,13 @@ document.addEventListener("keydown", (event) => {
     } else if (currentElement === "shoes") {
       currentElement = "head";
     }
-  } else if (event.key === "ArrowLeft") {
-    // Change the image of the currently selected element to the previous image
+  } else if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
     if (currentElement === "head") {
-      headIndex = (headIndex - 1 + headImages.length) % headImages.length;
-      headElement.src = headImages[headIndex];
+      changeHat();
     } else if (currentElement === "body") {
-      bodyIndex = (bodyIndex - 1 + bodyImages.length) % bodyImages.length;
-      bodyElement.src = bodyImages[bodyIndex];
+      changeClothes();
     } else if (currentElement === "shoes") {
-      shoesIndex = (shoesIndex - 1 + shoesImages.length) % shoesImages.length;
-      shoesElement.src = shoesImages[shoesIndex];
-    }
-  } else if (event.key === "ArrowRight") {
-    // Change the image of the currently selected element to the next image
-    if (currentElement === "head") {
-      headIndex = (headIndex + 1) % headImages.length;
-      headElement.src = headImages[headIndex];
-    } else if (currentElement === "body") {
-      bodyIndex = (bodyIndex + 1) % bodyImages.length;
-      bodyElement.src = bodyImages[bodyIndex];
-    } else if (currentElement === "shoes") {
-      shoesIndex = (shoesIndex + 1) % shoesImages.length;
-      shoesElement.src = shoesImages[shoesIndex];
+      changeShoes();
     }
   }
 });
