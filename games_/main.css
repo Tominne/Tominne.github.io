@@ -7,7 +7,7 @@ body {
   margin-top: 40px;
   }
   
-table {
+.table {
     margin-right: center;
     margin-left: center;
     margin: 0 auto;
@@ -24,7 +24,7 @@ h1 {
     color: black;
   }
   
-td {
+.td {
     width: 8vw;
     height: 8vw;
     text-align: center;
