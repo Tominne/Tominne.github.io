@@ -77,4 +77,24 @@ button {
   float: left;
   left: 100px;
   top: 200px;
+  width: 35vw;
+}
+
+/* Set the width of the parent container to 90% of the viewport width */
+.dress-a-parent {
+  width: 35vw;
+  margin: auto;
+}
+
+/* Use a media query to change the layout for smaller screens */
+
+.dress-a-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.dress-an-image {
+  margin: 10px;
 }
