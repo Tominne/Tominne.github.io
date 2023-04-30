@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles/decor.css" type="text/css">
+        <script src="effect.js"></script>
+        <meta charset="utf-8">
+         <title>Foundations Reflections</title>
+    </head>
+
+  <body style="background-color: brown;">
+    <div class="blockwide">
+        <a href="../index.html"><button type="button" style="margin-bottom: 50px;">Back to Main Page</button></a><br>
+    <h1 class="heading">Sprint 5 prompt: "What surprised me the most about learning core is..."</h1>
+    <h2>Set the timer for 2 minutes and simply write.</h2><br><br>
+    <h3><em>What surprised me most about learning core was probably the amount of overlap between Buddhist wisdom, the therapy taught practices and the core element in this course. <br>
+      I have bad experiences with these skills when taught to narrowly with one way to do them and for every purpose. <br> I like the idea of them and thing they could be highly utilized if we really let their potential out to frolic... 
+      How to do that beats me. Good-luck figuring it out! <br>
+      I have great ideas and poor-ish execution or maybe I am just harsh on myself! who knows!</em></h3><br><br>
+      <div class="heading2">
+      <h1>What are three new things you have learnt about yourself and your ego due to the core learning?</h1><br>
+
+       <h2>
+       - What are the role of values, empathy, and self-awareness in learning and programming?<br><br>
+       - What has surprised you the most about the core learning?<br><br>
+       - What were the most challenging aspects of the core learning?<br><br>
+       - Why do you think we, a programming school, are spending so much time focusing on core learning in a web development Boot-camp course?<br><br>
+       - Does the time you spent studying core learning here feel like a waste of time? Should you have just used that time to practice programming instead? Justify your answer.<br><br></h2>
+    </div>
+    <br>
+    <div class="block">
+        <h1>3 things i learned during core? I would love to teach core material to others as I am quite passionate about it.
+            I am most interested in applying these skills in a diverse manner from person to person. I think there is not enough value applied to these skills in society as in it's hard to earn a living off of them without some kind of 'practical' skill along side. 
+            My fine arts degree was almost more core skills than anything else yet our degree title does not reflect that and it often feels as though it counts for very little to the world as far as badges and titles go. I wish this would change. </h1><br>
+        <h1>Empathy and self awareness are relevant in all professions and skills, as in life. Any task that impacts another, or works alongside another must think of the other that is experiencing ones own output and ripples in the water. </h1>
+    <br><h1>What was most surprising is overlap between this study and so much I have learnt in other places, like Buddhism, Therapy, and even fine arts Creative Cultures. I always found it silly how much we learnt about culture and ethics in fine arts, yet the programmers of the world are not learning the same material yet are thought of in often greater esteem at-least as far as careers and paychecks go.</h1>
+    <br><h1>Most challenging part of core learning is the time limit and learning pressure on the technical tasks, which leaves little room in that panic to feel like we have much time to spare on anything else!</h1><br>
+        <h1>Programming is becoming more and more mainstream in its impact on peoples daily lives, which makes these core values all the more important for those creating such programs, to learn.</h1><br><br>
+        <h1>Learning core does not feel like a WASTE of time, but when the learning tech material feels so touch and go to learn in time to pass, it does feel that it simple HAS to be rushed for survival purposes, no irony given.<br>
+            We live in a very hunger games style capitalism especially for younger adults, and for atypical types.<br>
+            It is very much a battle for enough coin to live comfortably, and holding some status in society that always judges peoples worth on what they do instead of who they are.<br>
+            This course is sadly part of the waterboarding fight or flight that creeps on our young waking hours, as we try to outrun poverty and shame.<br>
+            Until Dev Academy can defeat this type of consumerist rich > poor capitalism, this course especially the stuff that seems hard to learn fast enough to pass, will without irony, feels a-lot like life and death, and in some cases truly is.<br>
+            At the very least it is a race against panic, depression, and a race for self worth and the terms society deems we must live within to be a valued part of it.<br>
+            I dare you to tell me to meditate out of the sensation of life or death and fight or flight... Maybe it is even possible to a highly trained monk, but for now we need to survive and for now we need to afford bread, or the right to one day have a family.</h1>
+</div>
+    </body>
+</head>
+</html>
