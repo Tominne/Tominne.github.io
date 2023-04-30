@@ -60,8 +60,8 @@ document.addEventListener("keydown", (event) => {
       currentElement = "shoes";
     } else if (currentElement === "body") {
       currentElement = "head";
-    } else if (currentElement === "body") {
-      currentElement = "head";
+    } else if (currentElement === "shoes") {
+      currentElement = "body";
     }
   } else if (event.key === "ArrowDown") {
     if (currentElement === "head") {
@@ -81,3 +81,85 @@ document.addEventListener("keydown", (event) => {
     }
   }
 });
+
+const buttons = {
+  changeHat: document.getElementById("change-hat-button"),
+  changeClothes: document.getElementById("change-clothes-button"),
+};
+
+buttons.changeHat.addEventListener("click", changeHat);
+buttons.changeClothes.addEventListener("click", changeClothes);
+
+const changeShoesButton = document.getElementById("change-shoes-button");
+changeShoesButton.addEventListener("click", changeShoes);
+
+let touchStartX = 0;
+let touchStartY = 0;
+
+document.addEventListener("touchstart", (event) => {
+  touchStartX = event.touches[0].clientX;
+  touchStartY = event.touches[0].clientY;
+});
+
+document.addEventListener("touchend", (event) => {
+  const touchEndX = event.changedTouches[0].clientX;
+  const touchEndY = event.changedTouches[0].clientY;
+
+  const deltaX = touchEndX - touchStartX;
+  const deltaY = touchEndY - touchStartY;
+
+  if (Math.abs(deltaX) > Math.abs(deltaY)) {
+    if (deltaX > 0) {
+      if (currentElement === "head") {
+        changeHat();
+      } else if (currentElement === "body") {
+        changeClothes();
+      } else if (currentElement === "shoes") {
+        changeShoes();
+        console.log('shoeClick');
+      }
+    } else {
+      // Swipe left
+      // ...
+    }
+  } else {
+    if (deltaY > 0) {
+      // Swipe down
+      // ...
+    } else {
+      // Swipe up
+      // ...
+    }
+  }
+});
+
+/*const saveButton = document.getElementById("save-button");
+
+saveButton.addEventListener("click", () => {
+
+  const canvas = document.createElement("canvas");
+  const ctx = canvas.getContext("2d");
+
+
+  canvas.width = 200;
+  canvas.height = 200;
+
+
+  const headImg = document.getElementById("head");
+  const bodyImg = document.getElementById("body");
+  const shoesImg = document.getElementById("shoes");
+
+
+  ctx.drawImage(headImg, 0, 0);
+  ctx.drawImage(bodyImg, 0, headImg.height);
+  ctx.drawImage(shoesImg, 0, headImg.height + bodyImg.height);
+
+
+  const dataUrl = canvas.toDataURL("image/png");
+
+
+  const a = document.createElement("a");
+  a.href = dataUrl;
+  a.download = "clownState.png";
+  a.click();
+});---*/
