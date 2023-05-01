@@ -8,6 +8,7 @@ const headImages = [
   "./images/head0.png",
   "./images/head1.png",
   "./images/head2.png",
+  "./images/head3.png",
 
 ];
 const bodyImages = [
