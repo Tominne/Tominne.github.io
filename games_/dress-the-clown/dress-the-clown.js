@@ -16,6 +16,9 @@ const bodyImages = [
   "./images/body2.png",
   "./images/body3.png",
   "./images/body4.png",
+  "./images/body5.png",
+  "./images/body6.png",
+  "./images/body7.png",
 ];
 const shirtImages = [
   "./images/shirt0.png",
