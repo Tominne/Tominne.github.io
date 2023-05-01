@@ -50,15 +50,15 @@ td {
 }
 
 .head {
+  z-index: 1
+}
+
+.shirt {
   z-index: 2
 }
 
 .body {
   z-index: 0
-}
-
-.shoes {
-  z-index: 1
 }
 
 #mole {
@@ -98,3 +98,4 @@ button {
 .dress-an-image {
   margin: 10px;
 }
+

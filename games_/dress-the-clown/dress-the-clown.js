@@ -20,29 +20,28 @@ const bodyImages = [
   "./images/body4.png",
   "./images/body5.png",
 ];
-const shoesImages = [
-  "./images/shoes0.png",
-  "./images/shoes1.png",
-  "./images/shoes2.png",
-  "./images/shoes3.png",
-  "./images/shoes4.png",
-  "./images/shoes5.png",
-];
+const shirtImages = [
+  "./images/shirt1.png",
+  "./images/shirt2.png",
+  "./images/shirt3.png",
+]
 
 let headIndex = 0;
 let bodyIndex = 0;
 let shoesIndex = 0;
+let shirtIndex = 1;
 
 const headElement = document.getElementById("head");
 const bodyElement = document.getElementById("body");
 const shoesElement = document.getElementById("shoes");
+const shirtElement = document.getElementById("shirt");
 
 function changeHat() {
   headIndex = (headIndex + 1) % headImages.length;
   headElement.src = headImages[headIndex];
 }
 
-function changeClothes() {
+function changeBody() {
   bodyIndex = (bodyIndex + 1) % bodyImages.length;
   bodyElement.src = bodyImages[bodyIndex];
 }
@@ -50,6 +49,11 @@ function changeClothes() {
 function changeShoes() {
   shoesIndex = (shoesIndex + 1) % shoesImages.length;
   shoesElement.src = shoesImages[shoesIndex];
+}
+
+function changeShirt() {
+  shirtIndex = (shirtIndex + 1) % shirtImages.length;
+  shirtElement.src = shirtImages[shirtIndex];
 }
 
 let currentElement = "head";
@@ -74,24 +78,23 @@ document.addEventListener("keydown", (event) => {
   } else if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
     if (currentElement === "head") {
       changeHat();
+    } else if (currentElement === "shirt") {
+      changeShirt();
     } else if (currentElement === "body") {
-      changeClothes();
-    } else if (currentElement === "shoes") {
-      changeShoes();
+      changeBody();
     }
   }
 });
 
 const buttons = {
   changeHat: document.getElementById("change-hat-button"),
-  changeClothes: document.getElementById("change-clothes-button"),
+  changeShirt: document.getElementById("change-shirt-button"),
+  changeBody: document.getElementById("change-body-button")
 };
 
 buttons.changeHat.addEventListener("click", changeHat);
-buttons.changeClothes.addEventListener("click", changeClothes);
-
-const changeShoesButton = document.getElementById("change-shoes-button");
-changeShoesButton.addEventListener("click", changeShoes);
+buttons.changeBody.addEventListener("click", changeBody);
+buttons.changeShirt.addEventListener("click", changeShirt);
 
 let touchStartX = 0;
 let touchStartY = 0;
