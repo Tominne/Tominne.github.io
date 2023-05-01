@@ -8,9 +8,7 @@ const headImages = [
   "./images/head0.png",
   "./images/head1.png",
   "./images/head2.png",
-  "./images/head3.png",
-  "./images/head4.png",
-  "./images/head5.png",
+
 ];
 const bodyImages = [
   "./images/body0.png",
@@ -18,18 +16,17 @@ const bodyImages = [
   "./images/body2.png",
   "./images/body3.png",
   "./images/body4.png",
-  "./images/body5.png",
 ];
 const shirtImages = [
+  "./images/shirt0.png",
   "./images/shirt1.png",
   "./images/shirt2.png",
-  "./images/shirt3.png",
 ]
 
 let headIndex = 0;
 let bodyIndex = 0;
 let shoesIndex = 0;
-let shirtIndex = 1;
+let shirtIndex = 0;
 
 const headElement = document.getElementById("head");
 const bodyElement = document.getElementById("body");
