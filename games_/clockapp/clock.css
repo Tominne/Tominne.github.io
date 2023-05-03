@@ -17,19 +17,44 @@ body {
   padding: 0px;
   text-transform: uppercase;
 }
-header{
+
+canvas {
+  border: 1px hidden;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  top: 70px;
+  left: 48px;
+  z-index: 2;
+}
+
+#clockCanvas {
+  position: absolute;
+  opacity: 0.7;
+  width: 6%;
+  top: 75%;
+  left: 47.4%;
+  z-index: 0;
+}
+
+header {
   font-size: 24px;
   line-height: 48px;
 }
+
 h4 {
   font-size: 21px;
   font-family: 'Bungee', cursive;
 }
+
 h4 #clock {
   font-size: 36px;
   display: block;
   padding: 5px 0px;
 }
+
 h1, h2, h3, h6 {
   font-family: 'Bungee Shade', cursive;
 }
