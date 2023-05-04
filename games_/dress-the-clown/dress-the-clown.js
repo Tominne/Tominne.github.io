@@ -25,6 +25,16 @@ const bodyImages = [
 const shirtImages = [
   "./images/shirt0.png",
   "./images/shirt1.png",
+  "./images/shirt2.png",
+  "./images/shirt3.png",
+  "./images/shirt4.png",
+  "./images/shirt5.png",
+  "./images/shirt6.png",
+  "./images/shirt7.png",
+  "./images/shirt8.png",
+  "./images/shirt9.png",
+  "./images/shirt10.png",
+  "./images/shirt11.png",
 ]
 
 const pantImages = [
