@@ -25,11 +25,19 @@ const bodyImages = [
 const shirtImages = [
   "./images/shirt0.png",
   "./images/shirt1.png",
-  "./images/shirt2.png",
 ]
 
 const pantImages = [
   "./images/pant0.png",
+  "./images/pant1.png",
+  "./images/pant2.png",
+  "./images/pant3.png",
+  "./images/pant4.png",
+  "./images/pant5.png",
+  "./images/pant6.png",
+  "./images/pant7.png",
+  "./images/pant8.png",
+  "./images/pant9.png",
 ]
 
 let headIndex = 0;
